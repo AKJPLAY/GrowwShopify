@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!---Roboto Font Start--->  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!---Roboto Font End--->   
+
+    <!---Bebas Neue Start--->  
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!---Bebas Neue End--->    
+
+    <!---vendor Library--->    
+    <link rel="stylesheet" href="https://unpkg.com/mouse-follower@1.1.2/dist/mouse-follower.min.css">
+    <script src="https://unpkg.com/mouse-follower@1.1.2/dist/mouse-follower.min.js"></script>
+    <script src="./vendor/gsap.min.js"></script>
+    <script src="./vendor/marquee3k-noUMD.min.js"></script>
+    <!---vendor Library End--->    
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Groww Shopify</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+    <header class="main-header">
+        <div class="inner-container">
+            <a href="" class="logo">
+                <svg width="189" height="102" viewBox="0 0 189 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.0694 101.71C9.28118 101.71 6.41632 100.645 4.47485 98.514C2.53338 96.3357 1.56265 93.2341 1.56265 89.2091V86.3679H8.94971V89.7774C8.94971 92.9974 10.2993 94.6074 12.9984 94.6074C14.3243 94.6074 15.3187 94.2285 15.9816 93.4709C16.6919 92.6659 17.0471 91.3874 17.0471 89.6353C17.0471 87.5518 16.5735 85.7287 15.6265 84.166C14.6794 82.556 12.9274 80.6382 10.3703 78.4126C7.15029 75.5715 4.90103 73.0144 3.6225 70.7415C2.34397 68.4212 1.70471 65.8168 1.70471 62.9282C1.70471 58.9979 2.69912 55.9674 4.68794 53.8365C6.67676 51.6582 9.56529 50.5691 13.3535 50.5691C17.0944 50.5691 19.9119 51.6582 21.806 53.8365C23.7475 55.9674 24.7182 59.0453 24.7182 63.0703V65.1301H17.3312V62.5731C17.3312 60.8684 16.9997 59.6372 16.3368 58.8796C15.6738 58.0746 14.7031 57.6721 13.4246 57.6721C10.8201 57.6721 9.51794 59.2584 9.51794 62.431C9.51794 64.2304 9.99147 65.9115 10.9385 67.4741C11.9329 69.0368 13.7087 70.9309 16.2657 73.1565C19.5331 75.9976 21.7824 78.5784 23.0135 80.8987C24.2447 83.219 24.8603 85.9418 24.8603 89.0671C24.8603 93.1394 23.8422 96.2647 21.806 98.4429C19.8172 100.621 16.905 101.71 13.0694 101.71ZM26.1044 51.2794H33.9176V71.5228H42.2991V51.2794H50.1123V101H42.2991V78.6257H33.9176V101H26.1044V51.2794ZM63.9891 101.71C60.1535 101.71 57.2176 100.621 55.1814 98.4429C53.1452 96.2647 52.1271 93.1868 52.1271 89.2091V63.0703C52.1271 59.0926 53.1452 56.0147 55.1814 53.8365C57.2176 51.6582 60.1535 50.5691 63.9891 50.5691C67.8246 50.5691 70.7605 51.6582 72.7967 53.8365C74.8329 56.0147 75.851 59.0926 75.851 63.0703V89.2091C75.851 93.1868 74.8329 96.2647 72.7967 98.4429C70.7605 100.621 67.8246 101.71 63.9891 101.71ZM63.9891 94.6074C66.6882 94.6074 68.0377 92.9737 68.0377 89.7063V62.5731C68.0377 59.3057 66.6882 57.6721 63.9891 57.6721C61.2899 57.6721 59.9404 59.3057 59.9404 62.5731V89.7063C59.9404 92.9737 61.2899 94.6074 63.9891 94.6074ZM77.8991 51.2794H89.4059C93.2888 51.2794 96.201 52.3212 98.1425 54.4047C100.084 56.4882 101.055 59.5425 101.055 63.5675V68.4685C101.055 72.4935 100.084 75.5478 98.1425 77.6313C96.201 79.7149 93.2888 80.7566 89.4059 80.7566H85.7123V101H77.8991V51.2794ZM89.4059 73.6537C90.6844 73.6537 91.6315 73.2985 92.247 72.5882C92.91 71.8779 93.2415 70.6704 93.2415 68.9657V63.0703C93.2415 61.3656 92.91 60.1581 92.247 59.4478C91.6315 58.7375 90.6844 58.3824 89.4059 58.3824H85.7123V73.6537H89.4059ZM102.062 51.2794H109.876V101H102.062V51.2794ZM112.491 51.2794H133.161V58.3824H120.305V72.2331H130.391V79.336H120.305V101H112.491V51.2794ZM140.846 79.8332L131.399 51.2794H139.709L145.037 69.534H145.179L150.506 51.2794H158.106L148.659 79.8332V101H140.846V79.8332Z" fill="#0B0500"/>
+                    <path d="M182.402 4L154.615 31.7871C154.235 32.1707 153.782 32.4751 153.283 32.6829C152.785 32.8906 152.25 32.9976 151.709 32.9976C151.169 32.9976 150.634 32.8906 150.136 32.6829C149.637 32.4751 149.184 32.1707 148.804 31.7871L138.246 21.2288C137.865 20.8452 137.413 20.5408 136.914 20.333C136.415 20.1253 135.88 20.0183 135.34 20.0183C134.8 20.0183 134.265 20.1253 133.766 20.333C133.268 20.5408 132.815 20.8452 132.434 21.2288L108.74 44.9235" stroke="black" stroke-width="7.89216" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M182.402 20.3694V4H166.033" stroke="#2CA9BC" stroke-width="7.89216" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M8.85259 44.4494C6.45595 44.4494 4.62851 43.7753 3.37027 42.4272C2.11204 41.0491 1.48292 39.0869 1.48292 36.5405V20.0037C1.48292 17.4572 2.11204 15.51 3.37027 14.1618C4.62851 12.7838 6.45595 12.0947 8.85259 12.0947C11.2492 12.0947 13.0767 12.7838 14.3349 14.1618C15.5931 15.51 16.2223 17.4572 16.2223 20.0037V22.6999H11.5488V19.6891C11.5488 17.622 10.695 16.5884 8.9874 16.5884C7.27979 16.5884 6.42599 17.622 6.42599 19.6891V36.9C6.42599 38.9371 7.27979 39.9557 8.9874 39.9557C10.695 39.9557 11.5488 38.9371 11.5488 36.9V30.7436H9.07727V26.2499H16.2223V36.5405C16.2223 39.0869 15.5931 41.0491 14.3349 42.4272C13.0767 43.7753 11.2492 44.4494 8.85259 44.4494ZM18.9562 12.5441H26.2809C28.8274 12.5441 30.6848 13.1433 31.8531 14.3416C33.0215 15.51 33.6057 17.3224 33.6057 19.779V21.7113C33.6057 24.9767 32.5272 27.0438 30.3702 27.9126V28.0024C31.5685 28.3619 32.4074 29.0959 32.8867 30.2043C33.396 31.3128 33.6506 32.7957 33.6506 34.6531V40.1804C33.6506 41.0791 33.6806 41.8131 33.7405 42.3823C33.8004 42.9215 33.9502 43.4608 34.1899 44H29.1569C28.9772 43.4907 28.8573 43.0114 28.7974 42.562C28.7375 42.1126 28.7075 41.3038 28.7075 40.1354V34.3835C28.7075 32.9455 28.4679 31.9419 27.9885 31.3727C27.5392 30.8035 26.7453 30.5189 25.6069 30.5189H23.8993V44H18.9562V12.5441ZM25.6968 26.0252C26.6854 26.0252 27.4193 25.7706 27.8987 25.2613C28.408 24.752 28.6626 23.8982 28.6626 22.6999V20.2733C28.6626 19.1349 28.4529 18.311 28.0335 17.8017C27.644 17.2925 27.0149 17.0378 26.1461 17.0378H23.8993V26.0252H25.6968ZM43.7855 44.4494C41.3589 44.4494 39.5015 43.7603 38.2133 42.3823C36.9251 41.0042 36.281 39.0569 36.281 36.5405V20.0037C36.281 17.4872 36.9251 15.5399 38.2133 14.1618C39.5015 12.7838 41.3589 12.0947 43.7855 12.0947C46.2121 12.0947 48.0695 12.7838 49.3577 14.1618C50.6459 15.5399 51.29 17.4872 51.29 20.0037V36.5405C51.29 39.0569 50.6459 41.0042 49.3577 42.3823C48.0695 43.7603 46.2121 44.4494 43.7855 44.4494ZM43.7855 39.9557C45.4931 39.9557 46.3469 38.9221 46.3469 36.855V19.6891C46.3469 17.622 45.4931 16.5884 43.7855 16.5884C42.0779 16.5884 41.2241 17.622 41.2241 19.6891V36.855C41.2241 38.9221 42.0779 39.9557 43.7855 39.9557ZM53.0248 12.5441H57.7881L59.99 36.7202H60.0799L62.4166 12.5441H67.809L70.1458 36.7202H70.2356L72.4376 12.5441H76.7066L73.516 44H67.3597L65.1128 22.7897H65.023L62.7761 44H56.2153L53.0248 12.5441ZM77.8182 12.5441H82.5816L84.7835 36.7202H84.8733L87.2101 12.5441H92.6025L94.9392 36.7202H95.0291L97.231 12.5441H101.5L98.3095 44H92.1531L89.9063 22.7897H89.8164L87.5696 44H81.0088L77.8182 12.5441Z" fill="#2CA9BC"/>
+                </svg>
+            </a>
+            <div class="menu-container">
+                <ul>
+                    <li>
+                        <a href="">Work</a>
+                    </li>
+                    <li>
+                        <a href="">Experince</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="main-layer js-pageContent">
+        <div class="layer layer__white">
+            <section class="main-hero-section">
+                <div class="inner-container">
+                    <div class="left">
+                        <p class="p">
+                            Groww Shopify is a multi-disciplinary studio focused on creating unique, end-to-end experiences and environments.
+                        </p>
+                    </div>
+                    <div class="right">
+                        <p class="h1">
+                            GROW UP <br> SHOPIFY <br> STORE
+                        </p>
+                    </div>
+                    <div class="circle circle-1">
+    
+                    </div>
+                    <div class="circle circle-2">
+    
+                    </div>
+                </div>
+            </section>
+            <section class="what-we-do">
+                <div class="inner-container">
+                    <p class="h2">
+                        What We Do <br> In Shopify
+                    </p>
+    
+                    <a href="/theme" class="link">
+                        THEME
+                    </a>
+                    <a href="/theme" class="link">
+                        FIGMA & UX/UI
+                    </a>
+                    <a href="/theme" class="link">
+                        BUG FIXING
+                    </a>
+                    <a href="/theme" class="link">
+                        RE DESIGNING
+                    </a>
+                </div>
+            </section>
+            <section class="slider_text">
+                <div class="inner-container marquee3k">
+                    <div class="main-text-container">
+                        <span class="text">
+                            THEMES
+                        </span>
+                        <span class="icon">
+                            <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 30.5C0 13.6553 13.6553 0 30.5 0C47.3447 0 61 13.6553 61 30.5C61 47.3447 47.3447 61 30.5 61C13.6553 61 0 47.3447 0 30.5Z" fill="#33909E"/>
+                            </svg>
+                        </span>
+                        <span class="text">
+                            Experiences
+                        </span>
+                        <span class="icon">
+                            <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 30.5C0 13.6553 13.6553 0 30.5 0C47.3447 0 61 13.6553 61 30.5C61 47.3447 47.3447 61 30.5 61C13.6553 61 0 47.3447 0 30.5Z" fill="#33909E"/>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="layer layer__black js-masker" style="--size: 235px; --x: 701.007px; --y: 572.993px;">
+            <section class="main-hero-section dark-mode">
+                <div class="inner-container">
+                    <div class="left">
+                        <p class="p">
+                            Groww Shopify is a multi-disciplinary studio focused on creating unique, end-to-end experiences and environments.
+                        </p>
+                    </div>
+                    <div class="right">
+                        <p class="h1">
+                            GROW UP <br> SHOPIFY <br> STORE
+                        </p>
+                    </div>
+                    <div class="circle circle-1">
+    
+                    </div>
+                    <div class="circle circle-2">
+    
+                    </div>
+                </div>
+            </section>
+            <section class="what-we-do dark-mode">
+                <div class="inner-container">
+                    <p class="h2">
+                        What We Do <br> In Shopify
+                    </p>
+    
+                    <a href="/theme" class="link">
+                        THEME
+                    </a>
+                    <a href="/theme" class="link">
+                        FIGMA & UX/UI
+                    </a>
+                    <a href="/theme" class="link">
+                        BUG FIXING
+                    </a>
+                    <a href="/theme" class="link">
+                        RE DESIGNING
+                    </a>
+                </div>
+            </section>
+            <section class="slider_text dark-mode">
+                <div class="inner-container marquee3k">
+                    <div class="main-text-container">
+                        <span class="text">
+                            THEMES
+                        </span>
+                        <span class="icon">
+                            <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 30.5C0 13.6553 13.6553 0 30.5 0C47.3447 0 61 13.6553 61 30.5C61 47.3447 47.3447 61 30.5 61C13.6553 61 0 47.3447 0 30.5Z" fill="#33909E"/>
+                            </svg>
+                        </span>
+                        <span class="text">
+                            Experiences
+                        </span>
+                        <span class="icon">
+                            <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 30.5C0 13.6553 13.6553 0 30.5 0C47.3447 0 61 13.6553 61 30.5C61 47.3447 47.3447 61 30.5 61C13.6553 61 0 47.3447 0 30.5Z" fill="#33909E"/>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </section>
+            <div class="main-footer dark-mode">
+                <ul class="menu-footer">
+                    <li>
+                        <a href="">
+                            Work
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            STUDIO
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            CONTACT
+                        </a>
+                    </li>
+                </ul>
+                <div class="inner-container">
+                    <div class="circle circle-1">
+        
+                    </div>
+                    <div class="circle circle-2">
+                        
+                    </div>
+                    <div class="circle circle-3">
+                        
+                    </div>
+                    <div class="circle circle-4">
+                        
+                    </div>
+                    <h1>
+                        GROWW SHOPIFY
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <ul class="menu-footer">
+            <li>
+                <a href="">
+                    Work
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    STUDIO
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    CONTACT
+                </a>
+            </li>
+        </ul>
+        <div class="inner-container">
+            <div class="circle circle-1">
+
+            </div>
+            <div class="circle circle-2">
+                
+            </div>
+            <div class="circle circle-3">
+                
+            </div>
+            <div class="circle circle-4">
+                
+            </div>
+            <h1>
+                GROWW SHOPIFY
+            </h1>
+        </div>
+    </footer>
+    <script>
+        Marquee3k.init();
+    </script>
+    <script src="./custom.js"></script>
+</body>
+</html>
